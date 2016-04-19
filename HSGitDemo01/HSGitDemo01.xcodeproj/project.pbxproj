@@ -13,6 +13,7 @@
 		18CDC0B41CC6909500D41A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CDC0B21CC6909500D41A57 /* Main.storyboard */; };
 		18CDC0B61CC6909500D41A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CDC0B51CC6909500D41A57 /* Assets.xcassets */; };
 		18CDC0B91CC6909500D41A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CDC0B71CC6909500D41A57 /* LaunchScreen.storyboard */; };
+		18CDC0C21CC6915A00D41A57 /* HSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDC0C11CC6915A00D41A57 /* HSObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		18CDC0B51CC6909500D41A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18CDC0B81CC6909500D41A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CDC0BA1CC6909500D41A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CDC0C01CC6915A00D41A57 /* HSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSObject.h; sourceTree = "<group>"; };
+		18CDC0C11CC6915A00D41A57 /* HSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				18CDC0B71CC6909500D41A57 /* LaunchScreen.storyboard */,
 				18CDC0BA1CC6909500D41A57 /* Info.plist */,
 				18CDC0A91CC6909400D41A57 /* Supporting Files */,
+				18CDC0C01CC6915A00D41A57 /* HSObject.h */,
+				18CDC0C11CC6915A00D41A57 /* HSObject.m */,
 			);
 			path = HSGitDemo01;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				18CDC0B11CC6909500D41A57 /* ViewController.m in Sources */,
 				18CDC0AE1CC6909500D41A57 /* AppDelegate.m in Sources */,
 				18CDC0AB1CC6909400D41A57 /* main.m in Sources */,
+				18CDC0C21CC6915A00D41A57 /* HSObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
